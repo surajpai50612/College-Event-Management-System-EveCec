@@ -1,1 +1,1 @@
-# College-Event-Management-System-EveCec
+# College Event Management System (EveCec)
