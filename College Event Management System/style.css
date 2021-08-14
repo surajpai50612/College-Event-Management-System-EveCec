@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding:0;
+}    
+
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    position: absolute;
+    z-index: 10;
+    width:100%;
+}
+
+.logo{
+    height:300px;
+    width:450px;
+}
+
+.navbar{
+    padding:30px 0;
+}
+
+.navbar-brand{
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+.navbar-dark .navbar-brand{
+    color:#fff;
+}
+
+.nav-item{
+    font-weight:bold;
+    padding-left:18px;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link:hover{
+    border-bottom: 2px solid red;
+}
+
+
+.b1{
+    border-radius: 50px;
+    color:lightgreen;
+    padding: 7px 22px;
+}
+
+.carousel-item{
+    height:99vh;
+    min-height:200px;
+    background:no-repeat center center scroll;
+    -webkit-background-size:cover;
+    background-size: cover;
+}
+
+.carousel-caption{
+    bottom: 130px;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    letter-spacing: 2px;
+    padding-top:100px;
+}
+
+.carousel-caption p{
+    width:60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+    padding-top: 50px;
+}
+
+.carousel-caption a{
+    text-transform: uppercase;
+    background:#262626;
+    padding:20px 30px;
+    display:inline-block;
+    color:#fff;
+    margin-top: 15px;
+}
+
+#about {
+    background-image:url(Images/bg-red.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    color: #fff;
+    height:500px;
+    padding:50px 0 30px 0;
+}
+
+.scr{
+    background:transparent !important;
+  }
+
+.scr.scrolled{
+    background:#000 !important;
+    height:30px;
+  }
+
+/* Swiper */
+.swiper-container {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 350px;
+}
+
+.link{
+    color:rgb(0, 225, 255);
+}
+
+.gal{
+    background-image: url(Images/bg-pur.jpg);
+    background-size: cover;
+}
+
+.hea{
+    color:#fff;
+    font-size: 45px;
+    padding:30px;
+}
+
+#des{
+    animation-delay: 2s;   
+    font-weight:bold;
+    font-size:23px;
+    color:#fff;
+}
+
+#ico{
+    animation-delay: 1s;
+}
+
+.ab{
+    color:#fff;
+    font-size: 45px;
+}
+
+#canlogo{
+    padding:10px 0 0 0;
+    margin-right: 0;
+    width:200px;
+}
+
+.pa{
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+}
